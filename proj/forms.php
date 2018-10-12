@@ -16,8 +16,7 @@
             <?php
                 echo "Today is " . date("Y/m/d") . "<br>";
                 $name = $email = $comment = "";
-                
-
+            
                 if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 $name = test_input($_POST["name"]);
                 $email = test_input($_POST["email"]);
